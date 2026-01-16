@@ -14,8 +14,8 @@ cargo build --release
 cargo run -- server --port 8080
 
 ### Запуск клиента
-![Alice and Bob chatting](screenshots/1user.jpg)
-![Alice and Bob chatting](screenshots/2user.jpg)
+![chat1](screenshots/user1.jpg)
+![chat2](screenshots/user2.jpg)
 
 cargo run -- client --address 127.0.0.1:8080 --username Alice
 
