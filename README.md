@@ -17,7 +17,7 @@ cargo run -- server --port 8080
 ![chat1](screenshots/user1.png)
 ![chat2](screenshots/user2.png)
 
-cargo run -- client --address 127.0.0.1:8080 --username Alice
+cargo run -- client --address 127.0.0.1:8080 --username username
 
 ## Особенности
 
@@ -32,12 +32,12 @@ cargo run -- client --address 127.0.0.1:8080 --username Alice
    cargo run -- server --port 8080
 
 2. Запустите первого клиента:
-   cargo run -- client --address 127.0.0.1:8080 --username Alice
+   cargo run -- client --address 127.0.0.1:8080 --username Artem
 
 3. Запустите второго клиента в другом терминале:
-   cargo run -- client --address 127.0.0.1:8080 --username Bob
+   cargo run -- client --address 127.0.0.1:8080 --username Vova
 
 4. Введите сообщения в любом из клиентов - они будут видны всем подключенным пользователям.
 
-5. Чтобы отправить сообщение конкретному пользователю, включите `@username` в текст сообщения, например: `@Bob Привет!`
+5. Чтобы отправить сообщение конкретному пользователю, включите `@username` в текст сообщения, например: `@Vova Привет!`
 
